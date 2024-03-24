@@ -1,6 +1,12 @@
 # crypto-aes
 
+[![npm package](https://nodei.co/npm/crypto-aes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/crypto-aes)
+
 > AES encryption/decryption.
+
+[![NPM version](https://img.shields.io/npm/v/crypto-aes.svg?style=flat)](https://npmjs.org/package/crypto-aes)
+[![NPM Downloads](https://img.shields.io/npm/dm/crypto-aes.svg?style=flat)](https://npmjs.org/package/crypto-aes)
+
 
 ## Install
 

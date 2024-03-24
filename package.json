@@ -1,5 +1,5 @@
 {
-  "name": "crypto-aes",
+  "name": "base-aes",
   "version": "1.0.0",
   "description": "AES encryption/decryption.",
   "main": "./dist/index.js",
@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
@@ -26,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengxinming/crypto-aes.git"
+    "url": "git+https://github.com/fengxinming/base-aes.git"
   },
   "bugs": {
-    "url": "https://github.com/fengxinming/crypto-aes/issues"
+    "url": "https://github.com/fengxinming/base-aes/issues"
   },
-  "homepage": "https://github.com/fengxinming/crypto-aes#readme",
+  "homepage": "https://github.com/fengxinming/base-aes#readme",
   "dependencies": {
     "tslib": "^2.6.2"
   },
@@ -42,7 +43,6 @@
     "@vitest/coverage-v8": "^1.4.0",
     "eslint": "^8.48.0",
     "eslint-config-fe": "^2.1.2",
-    "fe": "^2.0.27",
     "globby": "^14.0.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
