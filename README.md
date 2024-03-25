@@ -1,17 +1,17 @@
-# crypto-aes
+# base-aes
 
-[![npm package](https://nodei.co/npm/crypto-aes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/crypto-aes)
+[![npm package](https://nodei.co/npm/base-aes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/base-aes)
 
 > AES encryption/decryption.
 
-[![NPM version](https://img.shields.io/npm/v/crypto-aes.svg?style=flat)](https://npmjs.org/package/crypto-aes)
-[![NPM Downloads](https://img.shields.io/npm/dm/crypto-aes.svg?style=flat)](https://npmjs.org/package/crypto-aes)
+[![NPM version](https://img.shields.io/npm/v/base-aes.svg?style=flat)](https://npmjs.org/package/base-aes)
+[![NPM Downloads](https://img.shields.io/npm/dm/base-aes.svg?style=flat)](https://npmjs.org/package/base-aes)
 
 
 ## Install
 
 ```bash
-npm install --save crypto-aes
+npm install --save base-aes
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import {
   toUTF8Bytes,
   padPKCS7Padding,
   stripPKCS7Padding
-} from 'crypto-aes';
+} from 'base-aes';
 
 // 跟 go 语言加密和解密保持一致
 

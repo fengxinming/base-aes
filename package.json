@@ -1,17 +1,11 @@
 {
   "name": "base-aes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AES encryption/decryption.",
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "module": "./dist/es/index.mjs",
   "types": "./dist/types/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/types/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
-  },
+  "sideEffects": false,
   "scripts": {
     "build": "vite build",
     "test": "vitest run --coverage",
